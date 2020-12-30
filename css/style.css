@@ -1,0 +1,160 @@
+body {
+    font-family: 'Ruslan Display', cursive;
+    background: #000000 url(../img/fon.jpg) center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header {
+    padding: 50px 0 70px;
+}
+
+h1 {
+    font-size: 90px;
+    letter-spacing: 30px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 7px 7px 12px rgba(255, 255, 255, 0.5);
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item__1 {
+    overflow: hidden;
+    width: 220px;
+    height: 223px;
+    margin: 5px 5px;
+}
+
+.frame__1 {
+    position: relative;
+    top: -28px;
+    width: 220px;
+    height: 280px;
+}
+
+.item__2 {
+    overflow: hidden;
+    width: 660px;
+    height: 223px;
+    margin: 5px 5px;
+}
+
+.frame__2 {
+    position: relative;
+    top: -28px;
+    width: 660px;
+    height: 280px;
+}
+
+.item__3 {
+    overflow: hidden;
+    width: 220px;
+    height: 75px;
+    margin: 5px 5px;
+}
+
+.frame__3 {
+    position: relative;
+    top: -28px;
+    width: 220px;
+    height: 130px;
+}
+
+@media screen and (max-width:1160px) {
+    .header {
+        padding: 40px 0 40px;
+        transition: 0.3s linear;
+    }
+    h1 {
+        font-size: 70px;
+        transition: 0.3s linear;
+    }
+    .item__2 {
+        order: 3;
+    }
+    .row {
+        align-items: center;
+        transition: 0.3s linear;
+    }
+    .content {
+        transform-origin: top;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .header {
+        padding: 30px 0 20px;
+        transition: 0.3s linear;
+    }
+    h1 {
+        font-size: 60px;
+        letter-spacing: 25px;
+        transition: 0.3s linear;
+    }
+    .content {
+        transform: scale(0.9);
+        transition: 0.3s linear;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .header {
+        padding: 30px 0 20px;
+        transition: 0.3s linear;
+    }
+    h1 {
+        font-size: 50px;
+        letter-spacing: 20px;
+        transition: 0.3s linear;
+    }
+    .content {
+        transform: scale(0.7);
+        transition: 0.3s linear;
+    }
+}
+
+@media screen and (max-width:490px) {
+    .header {
+        padding: 30px 0 20px;
+        transition: 0.3s linear;
+    }
+    h1 {
+        font-size: 40px;
+        letter-spacing: 10px;
+        transition: 0.3s linear;
+    }
+    .content {
+        transform: scale(0.5);
+        transition: 0.3s linear;
+    }
+}
+
+@media screen and (max-width:350px) {
+    h1 {
+        font-size: 35px;
+        letter-spacing: 5px;
+        transition: 0.3s linear;
+    }
+    .content {
+        transform: scale(0.4);
+        transition: 0.3s linear;
+    }
+}
