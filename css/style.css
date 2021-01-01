@@ -47,7 +47,7 @@ h1 {
     position: relative;
     top: -28px;
     width: 220px;
-    height: 280px;
+    height: 290px;
 }
 
 .item__2 {
@@ -61,7 +61,7 @@ h1 {
     position: relative;
     top: -28px;
     width: 660px;
-    height: 280px;
+    height: 290px;
 }
 
 .item__3 {
@@ -75,7 +75,7 @@ h1 {
     position: relative;
     top: -28px;
     width: 220px;
-    height: 130px;
+    height: 140px;
 }
 
 @media screen and (max-width:1160px) {
