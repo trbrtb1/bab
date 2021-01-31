@@ -1,5 +1,4 @@
 body {
-    font-family: 'Ruslan Display', cursive;
     background: #000000 url(../img/fon.jpg) center;
     -webkit-background-size: cover;
     background-size: cover;
@@ -14,10 +13,14 @@ body {
 }
 
 .header {
-    padding: 50px 0 70px;
+    padding: 40px 0 40px;
+    width: 800px;
+    border-bottom: 5px solid #ffffff;
+    margin: 0 auto 50px;
 }
 
 h1 {
+    font-family: 'Ruslan Display', cursive;
     font-size: 90px;
     letter-spacing: 30px;
     text-align: center;
@@ -25,136 +28,270 @@ h1 {
     text-shadow: 7px 7px 12px rgba(255, 255, 255, 0.5);
 }
 
-.content {
-    display: flex;
-    justify-content: center;
+.c0 {
+    display: none;
 }
 
-.row {
+.a {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 72px;
+    color: #ffffff;
+}
+
+.atext {
+    margin-right: 50px;
+}
+
+.adash {
+    margin-right: 50px;
+}
+
+.ameaning {
+    font-weight: bold;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 63px;
+    color: #e0d7d7;
+}
+
+.btext {
+    margin-right: 50px;
+}
+
+.bdash {
+    margin-right: 50px;
+}
+
+.bmeaning {
+    font-weight: bold;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gabriela', serif;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.ca {
+    width: 30%;
+    margin-right: 50px;
+}
+
+.ctitle {
+    margin-bottom: 30px;
+    text-align: center;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 25px;
+}
+
+.name {
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.сtext {
+    width: 45%;
+}
+
+.сdash {
+    width: 10%;
+}
+
+.сmeaning {
+    width: 40%;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff;
+}
+
+.cb {
+    display: flex;
+    display: none;
     flex-wrap: wrap;
+    justify-content: center;
+    width: 60%;
+    font-size: 45px;
+    color: #e0d7d7;
+    align-items: center;
+    border-left: 1px solid #ffffff;
 }
 
-.item__1 {
-    overflow: hidden;
-    width: 220px;
-    height: 223px;
-    margin: 5px 5px;
+.сbtext {
+    margin-right: 15px;
 }
 
-.frame__1 {
-    position: relative;
-    top: -31px;
-    width: 220px;
-    height: 37000px;
+.сbmoney {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    align-items: center;
 }
 
-.item__2 {
-    overflow: hidden;
-    width: 660px;
-    height: 223px;
-    margin: 5px 5px;
+@media screen and (max-width:1200px) {
+    .ctitle {
+        font-size: 24px;
+    }
+    .cb {
+        font-size: 35px;
+    }
+    .сbmoney {
+        font-size: 40px;
+    }
 }
 
-.frame__2 {
-    position: relative;
-    top: -31px;
-    width: 660px;
-    height: 37000px;
-}
-
-.item__3 {
-    overflow: hidden;
-    width: 220px;
-    height: 75px;
-    margin: 5px 5px;
-}
-
-.frame__3 {
-    position: relative;
-    top: -31px;
-    width: 220px;
-    height: 140px;
-}
-
-@media screen and (max-width:1160px) {
+@media screen and (max-width:1000px) {
     .header {
-        padding: 40px 0 40px;
-        transition: 0.3s linear;
+        padding: 30px 0 30px;
     }
     h1 {
-        font-size: 70px;
-        transition: 0.3s linear;
+        font-size: 85px;
     }
-    .item__2 {
-        order: 3;
+    .ctitle {
+        font-size: 24px;
     }
-    .row {
-        align-items: center;
-        transition: 0.3s linear;
+    .ca {
+        font-size: 24px;
     }
-    .content {
-        transform-origin: top;
+    .cb {
+        font-size: 30px;
     }
-}
-
-@media screen and (max-width:700px) {
-    .header {
-        padding: 30px 0 20px;
-        transition: 0.3s linear;
-    }
-    h1 {
-        font-size: 60px;
-        letter-spacing: 25px;
-        transition: 0.3s linear;
-    }
-    .content {
-        transform: scale(0.9);
-        transition: 0.3s linear;
+    .сbmoney {
+        font-size: 35px;
     }
 }
 
-@media screen and (max-width:625px) {
+@media screen and (max-width:900px) {
+    .ctitle {
+        font-size: 22px;
+    }
+    .cb {
+        font-size: 25px;
+    }
+    .сbmoney {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:770px) {
     .header {
-        padding: 30px 0 20px;
-        transition: 0.3s linear;
+        width: 600px;
     }
     h1 {
+        letter-spacing: 10px;
+        text-align: center;
+    }
+    .ctitle {
+        font-size: 18px;
+    }
+
+    .a {
+        
         font-size: 50px;
-        letter-spacing: 20px;
-        transition: 0.3s linear;
     }
-    .content {
-        transform: scale(0.7);
-        transition: 0.3s linear;
+    .b {
+        
+        font-size: 50px;
+    }
+
+    .cb {
+        font-size: 25px;
+    }
+    .сbmoney {
+        font-size: 30px;
     }
 }
 
-@media screen and (max-width:490px) {
+@media screen and (max-width:740px) {
     .header {
-        padding: 30px 0 20px;
-        transition: 0.3s linear;
+        padding: 20px 0 20px;
+        width: 340px;
+        border-bottom: 1px solid #ffffff;
+        margin-bottom: 20px;
     }
     h1 {
         font-size: 40px;
-        letter-spacing: 10px;
-        transition: 0.3s linear;
     }
-    .content {
-        transform: scale(0.5);
-        transition: 0.3s linear;
+    .a {
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .atext {
+        margin-right: 15px;
+    }
+    .adash {
+        margin-right: 15px;
+    }
+    .b {
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    .btext {
+        margin-right: 15px;
+    }
+    .bdash {
+        margin-right: 15px;
+    }
+    .c {
+        display: block;
+        font-size: 20px;
+    }
+    .ca {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .cb {
+        padding-top: 15px;
+        width: 100%;
+        font-size: 20px;
+        border-top: 1px solid #ffffff;
+        border-left: 0;
+    }
+    .сbmoney {
+        font-size: 20px;
+    }
+    .ctitle {
+        margin-bottom: 20px;
+        text-align: center;
+        border-top: 1px solid #ffffff;
+        border-bottom: 0;
+        padding-top: 25px;
+        padding-bottom: 0;
+    }
+    .сtext {
+        width: 20%;
+    }
+    .сdash {
+        width: 20%;
+    }
+    .сmeaning {
+        width: 20%;
+    }
+    .name {
+        justify-content: center;
     }
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:320px) {
+    .header {
+        width: 300px;
+    }
     h1 {
         font-size: 35px;
-        letter-spacing: 5px;
-        transition: 0.3s linear;
     }
-    .content {
-        transform: scale(0.4);
-        transition: 0.3s linear;
+    .cb {
+        font-size: 18px;
+    }
+    .сbmoney {
+        font-size: 18px;
     }
 }
