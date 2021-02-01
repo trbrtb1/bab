@@ -116,40 +116,41 @@ h1 {
 
 .cb {
     display: flex;
-    /* display: none; */
-    flex-wrap: wrap;
+    display: none;
+    flex-direction: column;
     justify-content: center;
     width: 60%;
     font-size: 45px;
     color: #e0d7d7;
     align-items: center;
     border-left: 1px solid #ffffff;
+    
 }
 
-.сbtext {
-    margin-right: 15px;
-}
-
-.сbmoney {
+.cb span {
     font-size: 50px;
     font-weight: bold;
     text-decoration: underline;
     align-items: center;
 }
 
-@media screen and (max-width:1200px) {
+.сbtext {
+    margin: 0 0 30px;
+}
+
+@media screen and (max-width:1300px) {
     .ctitle {
         font-size: 24px;
     }
     .cb {
         font-size: 35px;
     }
-    .сbmoney {
+    .cb span {
         font-size: 40px;
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1100px) {
     .header {
         padding: 30px 0 30px;
     }
@@ -165,61 +166,38 @@ h1 {
     .cb {
         font-size: 30px;
     }
-    .сbmoney {
+    .cb span {
         font-size: 35px;
     }
 }
 
 @media screen and (max-width:900px) {
+    .header {
+        width: 600px;
+    }
+    h1 {
+        letter-spacing: 10px;
+    }
     .ctitle {
         font-size: 22px;
     }
     .cb {
         font-size: 25px;
     }
-    .сbmoney {
+    .cb span {
         font-size: 30px;
     }
 }
 
 @media screen and (max-width:770px) {
     .header {
-        width: 600px;
-    }
-    h1 {
-        letter-spacing: 10px;
-        text-align: center;
-    }
-    .ctitle {
-        font-size: 18px;
-    }
-
-    .a {
-        
-        font-size: 50px;
-    }
-    .b {
-        
-        font-size: 50px;
-    }
-
-    .cb {
-        font-size: 25px;
-    }
-    .сbmoney {
-        font-size: 30px;
-    }
-}
-
-@media screen and (max-width:740px) {
-    .header {
         padding: 20px 0 20px;
-        width: 340px;
+        width: 78vw;
         border-bottom: 1px solid #ffffff;
         margin-bottom: 20px;
     }
     h1 {
-        font-size: 40px;
+        font-size: 10vw;
     }
     .a {
         margin-bottom: 15px;
@@ -252,12 +230,12 @@ h1 {
     .cb {
         padding-top: 15px;
         width: 100%;
-        font-size: 20px;
+        font-size: 5vw;
         border-top: 1px solid #ffffff;
         border-left: 0;
     }
-    .сbmoney {
-        font-size: 20px;
+    .cb span {
+        font-size: 6vw;
     }
     .ctitle {
         margin-bottom: 20px;
@@ -281,17 +259,3 @@ h1 {
     }
 }
 
-@media screen and (max-width:320px) {
-    .header {
-        width: 300px;
-    }
-    h1 {
-        font-size: 35px;
-    }
-    .cb {
-        font-size: 18px;
-    }
-    .сbmoney {
-        font-size: 18px;
-    }
-}
