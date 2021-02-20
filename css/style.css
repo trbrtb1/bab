@@ -116,7 +116,7 @@ h1 {
 
 .cb {
     display: flex;
-    display: none;
+    /* display: none; */
     flex-direction: column;
     justify-content: center;
     width: 60%;
@@ -129,7 +129,6 @@ h1 {
 .cb span {
     font-size: 50px;
     font-weight: bold;
-    text-decoration: underline;
     align-items: center;
 }
 
