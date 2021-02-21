@@ -28,10 +28,6 @@ h1 {
     text-shadow: 7px 7px 12px rgba(255, 255, 255, 0.5);
 }
 
-.c0 {
-    display: none;
-}
-
 .a {
     display: flex;
     justify-content: center;
@@ -80,6 +76,7 @@ h1 {
     font-family: 'Gabriela', serif;
     font-size: 32px;
     color: #ffffff;
+    padding-bottom: 70px;
 }
 
 .ca {
@@ -176,6 +173,14 @@ h1 {
     h1 {
         letter-spacing: 10px;
     }
+    .a {
+        margin-bottom: 15px;
+        font-size: 7vw;
+    }
+    .b {
+        margin-bottom: 25px;
+        font-size: 7vw;
+    }
     .ctitle {
         font-size: 22px;
     }
@@ -197,19 +202,11 @@ h1 {
     h1 {
         font-size: 10vw;
     }
-    .a {
-        margin-bottom: 15px;
-        font-size: 30px;
-    }
     .atext {
         margin-right: 15px;
     }
     .adash {
         margin-right: 15px;
-    }
-    .b {
-        margin-bottom: 25px;
-        font-size: 30px;
     }
     .btext {
         margin-right: 15px;
